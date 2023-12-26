@@ -26,6 +26,9 @@ loadScene.preload = function () {
     // ボール画像
     this.load.image('ball1','./assets/images/ball1.png');
     this.load.image('ball2','./assets/images/ball2.png');
+    
+    //リザルト画面
+    this.load.image('result','./assets/images/result.jpg');
 };
 
 loadScene.create = function() {
